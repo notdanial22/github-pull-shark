@@ -1,0 +1,38 @@
+{
+  "name": "github-pull-shark",
+  "version": "1.0.0",
+  "description": "Automatically create and merge pull requests to earn the GitHub Pull Shark achievement",
+  "main": "src/index.js",
+  "bin": {
+    "github-pull-shark": "src/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "pull-request",
+    "achievement",
+    "pull-shark"
+  ],
+  "author": "Muhammad Danial",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^8.0.0",
+    "@octokit/rest": "^19.0.0",
+    "commander": "^11.0.0",
+    "dotenv": "^16.0.0",
+    "inquirer": "^8.2.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notdanial22/github-pull-shark.git"
+  },
+  "bugs": {
+    "url": "https://github.com/notdanial22/github-pull-shark/issues"
+  },
+  "homepage": "https://github.com/notdanial22/github-pull-shark#readme"
+}
